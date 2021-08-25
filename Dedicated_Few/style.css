@@ -1,0 +1,132 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+
+}
+
+main{
+    min-height: 100vh;
+    background:linear-gradient(rgb(240, 216, 172),rgba(228, 165, 49));
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   
+    
+}
+
+.TEMEL{
+    background-color: white;
+    min-height: 30vh;
+    width: 60%;
+    border-radius: 2rem;
+    background: linear-gradient(to right bottom ,rgba(255,255,255,1),rgba(255,255,255,0.2));
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    
+}
+header{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content:space-evenly;
+}
+
+
+.kare1, .kare2 {
+    background: linear-gradient(to left bottom ,rgba(255,255,255,1),rgba(255,255,255,0.2));
+    width: 15rem;
+    height: 25rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%;
+    position:absolute;
+    z-index:1
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2rem 2rem 10rem;
+    font-size: 3rem;
+    padding:1rem 1rem;
+    color: #fc6500;
+}
+h2{
+    text-align: center;
+    color: #fc6500;
+    padding:10px;
+
+
+}
+
+
+
+.kare1{
+    top:5%;
+    right:2.5%;
+}
+
+.kare2{
+    top:5%;
+    left: 2.5%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    overflow: hidden;
+    background: linear-gradient(to top , rgba(252, 101, 0,1),rgba(255, 254, 253, 0.8));
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(252, 164, 0);
+  }
+
+table{
+    width: 100%;
+    border:2px solid ;
+    border-radius: 2px;
+
+}
+
+table,th,td{
+  border: 2px solid #fc6500;
+  text-align: center;
+  border-radius: 10px;
+  padding:5px;
+  z-index: 3;
+  background: linear-gradient(to top , rgba(252, 101, 0,1),rgba(255, 254, 253, 0.747));
+}
+
+td{
+    
+    background: rgb(240, 216, 172) ;
+    opacity: 0.9;
+}
+
+th{ 
+    color: white;
+
+}
+
+
+.guild_member {
+    display: flex;
+    justify-content: space-evenly;
+    padding:2rem;
+}
